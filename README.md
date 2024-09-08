@@ -1,6 +1,6 @@
 # So Far Yet So Near: Time series data augmentation with exploring non-semantic boundaries based on reinforcement learning
 
-![Alt text](Fig/FreqSYN.jpg)
+![Alt text](FreqSYN/Fig/FreqSYN.jpg)
 
 
 
