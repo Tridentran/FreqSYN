@@ -1,0 +1,27 @@
+{
+    "train_cfg": {
+        "max_train_steps": 256000.0,
+        "evaluate_freq": 2048,
+        "evaluate_times": 1700,
+        "save_freq": 20,
+        "policy_dist": "Gaussian",
+        "batch_size": 2048,
+        "mini_batch_size": 64,
+        "lr_a": 0.0003,
+        "lr_c": 0.0003,
+        "gamma": 0.99,
+        "lamda": 0.95,
+        "epsilon": 0.2,
+        "K_epochs": 10,
+        "device":"cuda:0"
+    },
+
+    "env_cfg": {
+      "data_name": "BCI_2a",
+      "data_path": "/home/zzb/TSAUG_RL/Data/EEG/EEG_Data/BCI_2a_3c_sn_split/",
+      "bsz": 1,
+      "classifier_ckp": "/data/zzb/TSAUG_RL/Model/BCI_2a/MMCNN/zdm_488_0.658.pkl",
+      "device": "cuda:0"
+    }
+  }
+  
